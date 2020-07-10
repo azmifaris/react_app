@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`change lenguage 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <z>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </z>
+    <z>
+      <a
+        href="/news"
+        onClick={[Function]}
+      >
+        Materi
+      </a>
+    </z>
+    <z>
+      <a
+        href="/topics"
+        onClick={[Function]}
+      >
+        Aplikasi
+      </a>
+    </z>
+    <z>
+      <a
+        href="/list"
+        onClick={[Function]}
+      >
+        List Produk
+      </a>
+    </z>
+    <z>
+      <a
+        href="/about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+    </z>
+    <div>
+      <h1>
+        Selamat Datang
+      </h1>
+      <h5>
+        silahkan masukan data anda
+      </h5>
+      <form
+        onSubmit={[Function]}
+      >
+        <label>
+          Nama :
+          <input
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <br />
+          Skill
+          <select
+            multiple={true}
+            onChange={[Function]}
+            value={Array []}
+          >
+            <option
+              value="memasak"
+            >
+              Memasak
+            </option>
+            <option
+              value="menari"
+            >
+              Menari
+            </option>
+            <option
+              value="menyanyi"
+            >
+              Menyanyi
+            </option>
+          </select>
+          <br />
+          Alamat
+          <textarea
+            name="alamat"
+            onChange={[Function]}
+            value=""
+          />
+          <br />
+          <button
+            type="submit"
+          >
+            Submit
+          </button>
+        </label>
+      </form>
+    </div>
+  </header>
+</div>
+`;
